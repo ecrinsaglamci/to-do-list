@@ -18,6 +18,7 @@ const Todo = ({ text, todo, todos, setTodos }) => {
             return item;
         }));
     };
+    
 
     return (
         <div className="todo">
