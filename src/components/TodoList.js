@@ -14,6 +14,7 @@ const TodoList = ({todos, setTodos,filteredTodos}) => {
                 key={todo.id} 
                 text={todo.text}>
                 </Todo>
+                
                 ))}
             </ul>
         </div>
